@@ -1,0 +1,78 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    perspective: 750px;
+    background-color:#FFB830;
+}
+.console img{
+    height: 18rem;
+}
+.container {
+    width:60%;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    font-size: 21px;
+    text-align: center;
+}
+
+.console{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width:50%;
+    background: none;
+    border-radius:30px;
+    box-shadow: 0px 0px 30px #585858, 0px 20px 50px #585858;
+    height: 90vh;
+    transform-style: preserve-3d;
+}
+
+.button{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button button{
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-weight: bolder;
+    border:none;
+    background: none;
+    box-shadow: 0px 0px 10px #585858;
+    color:#585858;
+    cursor: pointer;
+}
+
+
+.Purchase{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Purchase button{
+    width: 80%;
+    padding: 13px 0px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(56, 99, 241);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
